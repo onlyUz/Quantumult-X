@@ -23,29 +23,6 @@ desitorrents\.tv/.* url script-response-body 豆瓣资源下载大师：1秒搞�
 www\.dingzi66\.com/q.* url script-response-body 豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js
 www\.x5v\.net/.* url script-response-body 豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js
 
-
-🔘 Loon
-[Script]
-http-response movie\.douban\.com/.* script-path=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js, requires-body=true, tag=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js
-http-response music\.douban\.com/.* script-path=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js, requires-body=true, tag=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js
-http-response book\.douban\.com/.* script-path=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js, requires-body=true, tag=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js
-http-response bangumi\.moe/search/title.* script-path=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js, requires-body=true, tag=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js
-http-response desitorrents\.tv/.* script-path=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js, requires-body=true, tag=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js
-http-response www\.dingzi66\.com/q.* script-path=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js, requires-body=true, tag=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js
-http-response www\.x5v\.net/.* script-path=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js, requires-body=true, tag=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js
-
-
-🔘 Surge
-[Script]
-豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js=type=http-response, pattern=movie\.douban\.com/.*, script-path=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js, requires-body=true, max-size=1310720
-豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js=type=http-response, pattern=music\.douban\.com/.*, script-path=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js, requires-body=true, max-size=1310720
-豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js=type=http-response, pattern=book\.douban\.com/.*, script-path=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js, requires-body=true, max-size=1310720
-豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js=type=http-response, pattern=bangumi\.moe/search/title.*, script-path=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js, requires-body=true, max-size=1310720
-豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js=type=http-response, pattern=desitorrents\.tv/.*, script-path=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js, requires-body=true, max-size=1310720
-豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js=type=http-response, pattern=www\.dingzi66\.com/q.*, script-path=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js, requires-body=true, max-size=1310720
-豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js=type=http-response, pattern=www\.x5v\.net/.*, script-path=豆瓣资源下载大师：1秒搞定豆瓣电影|音乐|图书下载.user.js, requires-body=true, max-size=1310720
-
-
 `
 try {
     let body = $response.body;
